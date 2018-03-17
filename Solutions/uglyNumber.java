@@ -10,7 +10,7 @@ Problem :
     1 is typically treated as an ugly number.
     Input is within the 32-bit signed integer range.
 
-SOlution : 
+Solution : 
 
 public class Solution {
     public boolean isUgly(int num) {
