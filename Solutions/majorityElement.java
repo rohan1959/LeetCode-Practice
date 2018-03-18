@@ -7,10 +7,10 @@ You may assume that the array is non-empty and the majority element always exist
 Solution :
 
 public class Solution {
-      public int majorityElement(int[] nums) {
+    public int majorityElement(int[] nums) {
     	HashMap<Integer, Integer> map = new HashMap<>();
     	int ret=0;
-    	for(int i :nums){
+    	for(int i :nums) {
     		if(!map.containsKey(i)){
     			map.put(i, 1);
     		}
@@ -20,7 +20,6 @@ public class Solution {
     		if(map.get(i)> nums.length/2)
     			ret = i;	
     	}	
-    	return ret;
-    	
+    	return ret;	
     }
 }
